@@ -231,7 +231,7 @@ const LandingPage = () => {
               <span className="text-xl font-bold text-white">InsightIQ</span>
             </div>
             <p className="text-gray-400">
-              © 2024 InsightIQ. All rights reserved.
+              © 2026 InsightIQ.  Built for Engineers to ENGINEER.
             </p>
           </div>
         </div>
