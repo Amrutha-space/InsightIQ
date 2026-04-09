@@ -102,7 +102,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-const PORT = process.env.PORT || (process.env.NODE_ENV === 'production' ? 5000 : 5002);
+const PORT = process.env.PORT || (process.env.NODE_ENV === 'production' ? 5000 : 5003);
 
 app.listen(PORT, () => {
   console.log(`\n=== InsightIQ Server ===`);
