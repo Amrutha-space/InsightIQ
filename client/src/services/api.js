@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // Create axios instance with base configuration
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5003/api',
+  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5002/api',
   timeout: 30000,
   headers: {
     'Content-Type': 'application/json',
